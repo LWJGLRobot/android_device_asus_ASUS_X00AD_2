@@ -15,9 +15,9 @@
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/wileyfox/crackling/board/*.mk
+include device/asus/x00ad/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/wileyfox/crackling/board-info.txt
+TARGET_BOARD_INFO_FILE := device/asus/x00ad/board-info.txt
 
 # Inherit from proprietary files
--include vendor/wileyfox/crackling/BoardConfigVendor.mk
+-include vendor/asus/x00ad/BoardConfigVendor.mk

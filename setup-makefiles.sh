@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=crackling
-VENDOR=wileyfox
+DEVICE=x00ad
+VENDOR=asus
 
 INITIAL_COPYRIGHT_YEAR=2015
 

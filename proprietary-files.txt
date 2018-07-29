@@ -64,42 +64,39 @@ vendor/lib/libactuator_dw9718s_olqba20.so
 vendor/lib/libactuator_dw9718s_olqba20_camcorder.so
 vendor/lib/libactuator_dw9718s_olqba20_camera.so
 
-# Camera chromatix
-vendor/lib/libchromatix_hi545_8916_common.so
-vendor/lib/libchromatix_hi545_8916_hfr_120fps.so
-vendor/lib/libchromatix_hi545_8916_hfr_60fps.so
-vendor/lib/libchromatix_hi545_8916_hfr_90fps.so
-vendor/lib/libchromatix_hi545_8916_liveshot.so
-vendor/lib/libchromatix_hi545_8916_preview.so
-vendor/lib/libchromatix_hi545_8916_snapshot.so
-vendor/lib/libchromatix_hi545_8916_default_video.so
-vendor/lib/libchromatix_hi545_8916_video_hd.so
-vendor/lib/libchromatix_imx214_8916_common.so
-vendor/lib/libchromatix_imx214_8916_hfr_120fps.so
-vendor/lib/libchromatix_imx214_8916_hfr_60fps.so
-vendor/lib/libchromatix_imx214_8916_hfr_90fps.so
-vendor/lib/libchromatix_imx214_8916_liveshot.so
-vendor/lib/libchromatix_imx214_8916_preview.so
-vendor/lib/libchromatix_imx214_8916_snapshot.so
-vendor/lib/libchromatix_imx214_8916_default_video.so
-vendor/lib/libchromatix_imx214_8916_video_hd.so
-vendor/lib/libchromatix_s5k3m2_olqba20_common.so
-vendor/lib/libchromatix_s5k3m2_olqba20_hfr_120fps.so
-vendor/lib/libchromatix_s5k3m2_olqba20_hfr_60fps.so
-vendor/lib/libchromatix_s5k3m2_olqba20_hfr_90fps.so
-vendor/lib/libchromatix_s5k3m2_olqba20_preview.so
-vendor/lib/libchromatix_s5k3m2_olqba20_snapshot.so
-vendor/lib/libchromatix_s5k3m2_olqba20_default_video.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_common.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_liveshot.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_preview.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_video.so
-vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so
+# Camera chromatix (in zb500kl there are 2 Samsung sensors)
+vendor/lib/libchromatix_s5k3l2_common.so
+vendor/lib/libchromatix_s5k3l2_default_video.so
+vendor/lib/libchromatix_s5k3l2_default_video_wechat.so
+vendor/lib/libchromatix_s5k3l2_hfr_120fps.so
+vendor/lib/libchromatix_s5k3l2_hfr_60fps.so
+vendor/lib/libchromatix_s5k3l2_hfr_90fps.so
+vendor/lib/libchromatix_s5k3l2_liveshot.so
+vendor/lib/libchromatix_s5k3l2_liveshot_hd.so
+vendor/lib/libchromatix_s5k3l2_lowlight.so
+vendor/lib/libchromatix_s5k3l2_preview.so
+vendor/lib/libchromatix_s5k3l2_preview_hd.so
+vendor/lib/libchromatix_s5k3l2_snapshot.so
+vendor/lib/libchromatix_s5k3l2_snapshot_hd.so
+vendor/lib/libchromatix_s5k3l2_snapshot_wechat.so
+vendor/lib/libchromatix_s5k3l2_video_hd.so
+vendor/lib/libchromatix_s5k3l2_zsl.so
 
-# Camera eeprom
-vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so
-vendor/lib/libmmcamera_s5k5e2_olq5f19_eeprom.so
+vendor/lib/libchromatix_s5k5e8_common.so
+vendor/lib/libchromatix_s5k5e8_default_video.so
+vendor/lib/libchromatix_s5k5e8_default_video_wechat.so
+vendor/lib/libchromatix_s5k5e8_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e8_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e8_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e8_liveshot.so
+vendor/lib/libchromatix_s5k5e8_liveshot_hd.so
+vendor/lib/libchromatix_s5k5e8_preview.so
+vendor/lib/libchromatix_s5k5e8_preview_hd.so
+vendor/lib/libchromatix_s5k5e8_snapshot.so
+vendor/lib/libchromatix_s5k5e8_snapshot_hd.so
+vendor/lib/libchromatix_s5k5e8_snapshot_wechat.so
+vendor/lib/libchromatix_s5k5e8_video_hd.so
+vendor/lib/libchromatix_s5k5e8_zsl.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -108,10 +105,8 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 
 # Camera sensors
-vendor/lib/libmmcamera_hi545_8916.so
-vendor/lib/libmmcamera_imx214_8916.so
-vendor/lib/libmmcamera_s5k3m2_olqba20.so
-vendor/lib/libmmcamera_s5k5e2_olq5f19.so
+vendor/lib/libmmcamera_s5k3l2.so
+vendor/lib/libmmcamera_s5k5e8.so
 
 # DRM
 bin/qseecomd
@@ -123,7 +118,6 @@ vendor/lib64/libssd.so
 
 # GPS
 -lib64/libloc_api_v02.so
--lib64/libloc_ds_api.so
 vendor/lib64/hw/flp.default.so
 vendor/lib64/libflp.so
 vendor/lib64/libgeofence.so
@@ -259,7 +253,6 @@ etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
-lib64/librilqmiservices.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libconfigdb.so
@@ -303,7 +296,3 @@ vendor/lib/libTimeService.so
 vendor/lib/libwvdrm_L3.so
 vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/mediadrm/libwvdrmengine.so
-
-# WiFi
-lib64/libwcnss_qmi.so|449d9a9e8bc58a50842c49694d2b77da182fc37e
--lib64/libwpa_qmi_eap_proxy.so|d73183e1a730aa29ed929766434da0ae668ae06d

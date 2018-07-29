@@ -18,13 +18,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from crackling device
-$(call inherit-product, device/wileyfox/crackling/device.mk)
+# Inherit from x00ad device
+$(call inherit-product, device/asus/x00ad/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := crackling
-PRODUCT_NAME := full_crackling
-PRODUCT_BRAND := wileyfox
-PRODUCT_MODEL := CRACKLING
-PRODUCT_MANUFACTURER := wileyfox
+PRODUCT_DEVICE := x00ad
+PRODUCT_NAME := full_x00ad
+PRODUCT_BRAND := Zenfone Go
+PRODUCT_MODEL := ZB500KL
+PRODUCT_MANUFACTURER := asus
 

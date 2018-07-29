@@ -1,2 +1,2 @@
 # Recovery
-TARGET_RECOVERY_FSTAB := device/wileyfox/crackling/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/asus/x00ad/rootdir/etc/fstab.qcom

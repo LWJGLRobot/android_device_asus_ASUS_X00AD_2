@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/wileyfox/crackling/full_crackling.mk)
+$(call inherit-product, device/asus/x00ad/full_x00ad.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -20,20 +20,20 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_crackling
-BOARD_VENDOR := wileyfox
-PRODUCT_DEVICE := crackling
+PRODUCT_NAME := lineage_x00ad
+BOARD_VENDOR := asus
+PRODUCT_DEVICE := x00ad
 
-PRODUCT_GMS_CLIENTID_BASE := android-wileyfox
+PRODUCT_GMS_CLIENTID_BASE := android-x00ad
 
-PRODUCT_MANUFACTURER := Wileyfox
-PRODUCT_MODEL := Wileyfox Swift
+PRODUCT_MANUFACTURER := Asus
+PRODUCT_MODEL := Zenfone_Go
 
-PRODUCT_BRAND := Wileyfox
-TARGET_VENDOR := wileyfox
-TARGET_VENDOR_PRODUCT_NAME := Swift
-TARGET_VENDOR_DEVICE_NAME := crackling
+PRODUCT_BRAND := Asus
+TARGET_VENDOR := asus
+TARGET_VENDOR_PRODUCT_NAME := ZB500KL
+TARGET_VENDOR_DEVICE_NAME := x00ad
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Wileyfox/Swift/crackling:7.1.1/N6F26Y/5506d7d322:user/release-keys \
-    PRIVATE_BUILD_DESC="crackling-user 7.1.1 N6F26Y 5506d7d322 release-keys"
+    BUILD_FINGERPRINT=asus/ZB500KL/x00ad:7.1.1/N6F26Y/5506d7d322:user/release-keys \
+    PRIVATE_BUILD_DESC="x00ad-user 7.1.1 N6F26Y 5506d7d322 release-keys"

@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=crackling
-VENDOR=wileyfox
+DEVICE=x00ad
+VENDOR=asus
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
