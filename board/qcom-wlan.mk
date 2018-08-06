@@ -1,3 +1,4 @@
 # Wifi
-CONFIG_EAP_PROXY := qmi
-CONFIG_EAP_PROXY_DUAL_SIM := true
+WIFI_DRIVER_MODULE_NAME := "wlan"
+WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/wlan.ko"
+TARGET_USES_QCOM_WCNSS_QMI := false

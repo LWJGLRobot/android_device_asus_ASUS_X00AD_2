@@ -24,7 +24,7 @@ $(call inherit-product, device/asus/x00ad/device.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := x00ad
 PRODUCT_NAME := full_x00ad
-PRODUCT_BRAND := Zenfone Go
-PRODUCT_MODEL := ZB500KL
+PRODUCT_BRAND := asus
+PRODUCT_MODEL := x00ad
 PRODUCT_MANUFACTURER := asus
 

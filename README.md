@@ -1,41 +1,30 @@
-# Device configuration for Wileyfox Swift
+# Device configuration for Zenfone Go ZB500KL (X00AD)
+
+# Bugs
+video taking, use another camera
+perfd bootloop, not so catastrophic
+opencl does not work
+bluetooth file sending (maybe work)
+touchscreen buttons, need .kl files to be modified
+maybe other.
 
 ## Spec Sheet
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Quad-core 1.2 GHz ARM® Cortex™ A53|
-| Chipset                 | Qualcomm MSM8916 Snapdragon 410   |
-| GPU                     | Adreno 306                        |
-| Memory                  | 2 GB                              |
-| Shipped Android Version | 5.1.1                             |
-| Storage                 | 16 GB                             |
-| MicroSD                 | Up to 128 GB                      |
-| Battery                 | 2500 mAh (removable)              |
-| Dimensions              | 71 x 141,15 x 9,36 mm             |
-| Display                 | 720 x 1280 pixels, 5.0" IPS LCD   |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
+| Feature                 | Specification                       |
+| :---------------------- | :--------------------------------   |
+| CPU                     | Quad-core 1/1.2 GHz ARM® Cortex™ A53|
+| Chipset                 | Qualcomm MSM8916 Snapdragon 410     |
+| GPU                     | Adreno 306                          |
+| Memory                  | 2 GB                                |
+| Shipped Android Version | 6                                   |
+| Storage                 | 16/32 GB                            |
+| MicroSD                 | Up to 128 GB                        |
+| Battery                 | 2600 mAh (removable)                |
+| Dimensions              | 143.7 x 70.85 x 11.25 mm            |
+| Display                 | 720 x 1280 pixels, 5.0" IPS LCD     |
+| Rear Camera             | 13 MP, LED flash                    |
+| Front Camera            | 5 MP                                |
 
 ## Device Picture
 
-![Wileyfox Swift](http://s.4pda.to/YstumqO2cI57cw7o9jBDUMREsvGDbWqz0jTna7xTz2z1jqJHnONSI.jpg "Wileyfox Swift")
-
-## Copyright
-
-```
-#
-# Copyright (C) 2016 The CyanogenMod Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+![Zenfone Go](https://cs5-2.4pda.to/10967369.png "Zenfone Go")
