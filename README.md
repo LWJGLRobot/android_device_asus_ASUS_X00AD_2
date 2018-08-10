@@ -1,11 +1,10 @@
 # Device configuration for Zenfone Go ZB500KL (X00AD)
 
 # Bugs
-video taking, use another camera
-perfd bootloop, not so catastrophic
-opencl does not work
-bluetooth file sending (maybe work)
-touchscreen buttons, need .kl files to be modified
+video taking, use another camera.
+opencl does not work.
+maybe bluetooth file sending.
+touchscreen buttons, need .kl files to be modified.
 maybe other.
 
 ## Spec Sheet
@@ -19,7 +18,7 @@ maybe other.
 | Shipped Android Version | 6                                   |
 | Storage                 | 16/32 GB                            |
 | MicroSD                 | Up to 128 GB                        |
-| Battery                 | 2600 mAh (removable)                |
+| Battery                 | 2660 (2600) mAh (removable)         |
 | Dimensions              | 143.7 x 70.85 x 11.25 mm            |
 | Display                 | 720 x 1280 pixels, 5.0" IPS LCD     |
 | Rear Camera             | 13 MP, LED flash                    |

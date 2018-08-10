@@ -15,7 +15,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), x00ad)
+ifeq ($(TARGET_DEVICE), ASUS_X00AD_2)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

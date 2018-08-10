@@ -1,3 +1,3 @@
-add_lunch_combo lineage_x00ad-eng
-add_lunch_combo lineage_x00ad-user
-add_lunch_combo lineage_x00ad-userdebug
+add_lunch_combo lineage_ASUS_X00AD_2-eng
+add_lunch_combo lineage_ASUS_X00AD_2-user
+add_lunch_combo lineage_ASUS_X00AD_2-userdebug

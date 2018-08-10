@@ -24,4 +24,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 include $(LOCAL_PATH)/product/*.mk
 
 # Call the proprietary setup
-$(call inherit-product, vendor/asus/x00ad/x00ad-vendor.mk)
+$(call inherit-product, vendor/asus/ASUS_X00AD_2/ASUS_X00AD_2-vendor.mk)

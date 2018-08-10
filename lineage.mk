@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/asus/x00ad/full_x00ad.mk)
+$(call inherit-product, device/asus/ASUS_X00AD_2/full_ASUS_X00AD_2.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -20,16 +20,13 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_x00ad
+PRODUCT_NAME := lineage_ASUS_X00AD_2
 BOARD_VENDOR := asus
-PRODUCT_DEVICE := x00ad
+PRODUCT_DEVICE := ASUS_X00AD_2
 
-PRODUCT_GMS_CLIENTID_BASE := android-x00ad
+PRODUCT_GMS_CLIENTID_BASE := android-ASUS_X00AD_2
 
-PRODUCT_MANUFACTURER := asus
-PRODUCT_MODEL := x00ad
+PRODUCT_MANUFACTURER := unknown
+PRODUCT_MODEL := ASUS_X00AD
 
 PRODUCT_BRAND := asus
-# TARGET_VENDOR := asus
-# TARGET_VENDOR_PRODUCT_NAME := ZB500KL
-# TARGET_VENDOR_DEVICE_NAME := x00ad

@@ -18,13 +18,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from x00ad device
-$(call inherit-product, device/asus/x00ad/device.mk)
+# Inherit from ASUS_X00AD_2 device
+$(call inherit-product, device/asus/ASUS_X00AD_2/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := x00ad
-PRODUCT_NAME := full_x00ad
+PRODUCT_DEVICE := ASUS_X00AD_2
+PRODUCT_NAME := full_ASUS_X00AD_2
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := x00ad
-PRODUCT_MANUFACTURER := asus
+PRODUCT_MODEL := ASUS_X00AD
+PRODUCT_MANUFACTURER := unknown
 

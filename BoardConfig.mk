@@ -15,9 +15,9 @@
 
 include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-include device/asus/x00ad/board/*.mk
+include device/asus/ASUS_X00AD_2/board/*.mk
 
-TARGET_BOARD_INFO_FILE := device/asus/x00ad/board-info.txt
+TARGET_BOARD_INFO_FILE := device/asus/ASUS_X00AD_2/board-info.txt
 
 # Inherit from proprietary files
--include vendor/asus/x00ad/BoardConfigVendor.mk
+-include vendor/asus/ASUS_X00AD_2/BoardConfigVendor.mk
