@@ -4,7 +4,7 @@
 video taking, use another camera.
 opencl does not work.
 maybe bluetooth file sending.
-touchscreen buttons, need .kl files to be modified.
+gps location error around 20m.
 maybe other.
 
 ## Spec Sheet
