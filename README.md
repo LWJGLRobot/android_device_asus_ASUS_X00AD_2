@@ -1,11 +1,16 @@
 # Device configuration for Zenfone Go ZB500KL (X00AD)
 
 # Bugs
-video taking, use another camera.
-opencl does not work.
-maybe bluetooth file sending.
-gps location error around 20m.
-maybe other.
+rare red lines like in power saving mode.
+
+# Work
+camera, flashlight
+gps
+bluetooth
+mobile and wifi connections
+usb, wifi tethering
+opencl, opengl
+...
 
 ## Spec Sheet
 

@@ -13,8 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/cyanogen/msm8916-common/BoardConfigCommon.mk
-
 include device/asus/ASUS_X00AD_2/board/*.mk
 
 TARGET_BOARD_INFO_FILE := device/asus/ASUS_X00AD_2/board-info.txt
