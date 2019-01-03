@@ -44,6 +44,9 @@ vendor/etc/style.cng
 bin/btnvtool
 bin/hci_qcomm_init
 vendor/lib64/libbtnv.so
+lib/libaptX-1.0.0-rel-Android21-ARMv7A.so
+lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so
+lib/libaptXScheduler.so
 
 # Camera
 bin/mm-qcamera-daemon
