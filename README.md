@@ -1,28 +1,28 @@
 # Device configuration for Zenfone Go ZB500KL (X00AD)
 
 # Build
-export PATH=~/PATH_TO_PYTHON2_SYMLINK/:$PATH
-export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
-export LC_ALL=C
-. build/envsetup.sh
-lunch lineage-ASUS_X00AD_2-eng
-make clean
+export PATH=~/PATH_TO_PYTHON2_SYMLINK/:$PATH  
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"  
+export LC_ALL=C  
+. build/envsetup.sh  
+lunch lineage-ASUS_X00AD_2-eng  
+make clean  
 
-make -j3 otapackage
-or
-WITH_TWRP=true make -j3 recoveryimage
+make -j3 otapackage  
+or  
+WITH_TWRP=true make -j3 recoveryimage  
 
 # Bugs
-rare red lines like in power saving mode.
+rare red lines like in power saving mode.  
 
 # Work
-camera, flashlight
-gps
-bluetooth
-mobile and wifi connections
-usb, wifi tethering
-opencl, opengl
-...
+camera, flashlight  
+gps  
+bluetooth  
+mobile and wifi connections  
+usb, wifi tethering  
+opencl, opengl  
+...  
 
 ## Spec Sheet
 
