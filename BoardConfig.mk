@@ -15,6 +15,9 @@
 
 include device/asus/ASUS_X00AD_2/board/*.mk
 
+# Exclude serif fonts for saving system.img size.
+EXCLUDE_SERIF_FONTS := true
+
 TARGET_BOARD_INFO_FILE := device/asus/ASUS_X00AD_2/board-info.txt
 
 # Inherit from proprietary files
