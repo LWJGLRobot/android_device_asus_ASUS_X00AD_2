@@ -5,7 +5,7 @@ export PATH=~/PATH_TO_PYTHON2_SYMLINK/:$PATH
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"  
 export LC_ALL=C  
 . build/envsetup.sh  
-lunch lineage_ASUS_X00AD_2-eng
+lunch lineage_ASUS_X00AD_2-eng  
 make clean  
 
 make -j3 otapackage  
