@@ -1,6 +1,8 @@
 # Device configuration for Zenfone Go ZB500KL (X00AD)
 
 # Build
+export USE_CCACHE=1 (optional)  
+
 export PATH=~/PATH_TO_PYTHON2_SYMLINK/:$PATH  
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"  
 export LC_ALL=C  
